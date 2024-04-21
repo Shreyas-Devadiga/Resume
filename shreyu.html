@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting</title>
+    <link rel="stylesheet" href="vote.css">
+</head>
+<body>
+    <div class="d">
+    <h1>Voting eligibility</h1>
+  
+<label>Name:</label> 
+<input type="text" name="" id="name" placeholder="Name"><br><br>
+<label>Age:</label> 
+<input type="number" name="" id="age" placeholder="age"><br><br>
+<label>Nationality:</label>
+<br>
+<select>
+   <option value="1" >Indian</option>
+   <option value="2">American</option>
+    <option value="3">Japanese</option>
+    <option value="4">Korean</option>
+</select><br>
+<button onclick="vote()" id="b" > Validate</button><br>
+ <p id="result"></p>
+ </div>
+    <script>
+          function vote()
+          {
+       name=document.getElementById("name").value="Name";
+       age=document.getElementById("age").value="Age";
+
+
+        if(name==" ")
+         {
+            alert("enter your name");
+            return;
+        }
+      if(age==" ")
+      {
+        alret("enter your age");
+        return;
+      }
+      if(age>=100){
+        document.getElementById("result").innerHTML="RIP";
+      }
+        
+           else if(age>=18)
+            {
+                document.getElementById("result").innerHTML="eligible for voting";
+            }
+            else
+            {
+                document.getElementById("result").innerHTML="you r still a child";
+            }
+        }
+    
+    </script>
+
+
+</body>
+</html>

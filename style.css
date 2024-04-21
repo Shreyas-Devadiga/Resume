@@ -1,0 +1,48 @@
+ #p{
+    background-color: red;
+ }
+ body{
+  background-color: aqua;
+ }
+
+    img{
+      background: linear-gradient(to top,lightblue,lightgreen,red);
+        width: 400px;
+        height: 300px;
+    }
+
+   
+    #box{
+        background-color: indigo;
+    }
+
+   
+    .heading{
+        background-color: crimson;
+    }
+
+   
+    #p1{
+        background-color: blue;
+    }
+
+    .img1{
+
+      margin-left: 70px;
+      background-color: darkred;
+    }
+
+    .img2{
+      border-radius: 25px;
+      padding-right: 70px;
+      background-color: beige;
+    }
+
+    .img1{
+      transition: 0.5s;
+    }
+    .img1:hover{
+      padding: 50px;
+      background-color: brown;
+      opacity: 0.5;
+    } 

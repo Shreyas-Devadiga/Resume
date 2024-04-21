@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+background-image: url('./4c275c02fefbbf0bca735eec1dc102dc.jpg');
+background-size: 100%;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    color: red;
+   
+}
+label{
+    font-size: medium;
+    
+    color: black;
+    
+}
+
+#b{
+    background-color: rgb(66, 70, 70);
+}
+#d{
+font-size: 25px;
+height:400px;
+width:400px;
+margin:auto;
+border: solid 5px black;
+border-radius: 30p;
+color: aliceblue;
+}
